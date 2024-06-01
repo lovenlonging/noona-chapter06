@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+main {
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 170%;
+    background-position: 50% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-line {
+    position: relative;
+}
+
+.top-txt {
+    position: relative;
+    left: -8rem;
+}
+
+.bottom-txt {
+    position: relative;
+    left: 15rem;
+}
+
+.sub-line {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-item {
+    font-size: 150px;
+    color: #1ed760;
+    font-weight: 900;
+}
+.sub-txt {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #1ed760;
+}
+
+
+.btn-main {
+    border: 1px solid #1ed760;
+    border-radius: 23px;
+    font-size: 16px;
+    margin-top: 40px;
+    color: #2941ab;
+    background-color: #1ed760;
+    align-self: center;
+    padding: 14px 32px;
+    font-weight: 900;
+}
+
+.btn-main:hover {
+    transform: scale(1.05);
+    background-color: #2de26d;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.footer-top {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.footer-top-left {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.footer-items {
+    display: flex;
+    color: gray;
+    font-size: 16px;
+    font-weight: 900;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.footer-item {
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer-top-right {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.icon:hover {
+    color: #1ed760;
+}
+
+.footer-txt {
+    color: gray;
+}
+
+.top-line {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bot-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bot-left a {
+    color: gray;
+    margin-left: 25px;
+}
+
+.footer-bot-left a:hover {
+    color: #1ed760;
+}
